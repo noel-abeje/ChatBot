@@ -1,0 +1,870 @@
+{
+  "intents": [
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "How do I enroll in classes?",
+        "I want to register for classes",
+        "Enrollment"
+      ],
+      "responses": [
+        "To enroll in classes, <a target=\"_blank\" href=\"https://my.emu.edu/ICS/Acad/myStudent_Activities.jnz\"> click here </a>. You can also visit the registrar's office in person or schedule an appointment with an academic advisor for assistance with enrollment."
+      ]
+    },
+    {
+      "tag": "financial aid",
+      "patterns": ["Financial aid", "Scholarships", "Grants"],
+      "responses": [
+        "For information on financial aid, including scholarships and grants, you can visit the financial aid office on campus or go to the financial aid section of our university's website. You can also contact the financial aid office directly with any questions or concerns you may have.",
+        "It is recommended that you start the financial aid process as early as possible, as funding is often limited and awarded on a first-come, first-served basis."
+      ]
+    },
+    {
+      "tag": "academic advisors",
+      "patterns": [
+        "Academic advisors",
+        "Where can I find an academic advisor?",
+        "I need help with my schedule"
+      ],
+      "responses": [
+        "You can find information on academic advisors and how to schedule an appointment with them on the academic advising section of our university's website. You can also visit the academic advising office in person or contact them by phone for assistance.",
+        "Academic advisors are here to help you plan your course schedule, choose a major, and provide guidance on academic and career goals. Don't hesitate to reach out for help!"
+      ]
+    },
+    {
+      "tag": "tutoring",
+      "patterns": [
+        "Tutoring",
+        "Where can I get help with my class?",
+        "I need a tutor"
+      ],
+      "responses": [
+        "We offer tutoring services through our university's learning center. You can find information on the types of tutoring available and how to schedule a tutoring session on the learning center's website or by visiting the learning center in person.",
+        "Tutoring is available for a variety of subjects and is provided by trained peer tutors or professional tutors. Don't hesitate to reach out for help!"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Library hours", "Library", "I need a book"],
+      "responses": [
+        "The Library hours are Monday - Thursday:- 7:45 am - 11:30 pm. Friday:- 7:45 am - 6 pm. Saturday:- 12 noon - 6 pm. Sunday:- 2:00 pm - 11:30 pm."
+      ]
+    },
+    {
+      "tag": "University hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college  hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": ["College is open 8am-5pm Monday-Saturday!"]
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how do I contact the college",
+        "college telephone number",
+        "University number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": ["You can contact at: 800-368-2665"]
+    },
+    {
+      "tag": "computer lab",
+      "patterns": [
+        "Computer lab",
+        "Where is the computer lab?",
+        "I need a computer"
+      ],
+      "responses": [
+        "There are several computer labs on campus that are available for student use. You can find the locations and hours of operation for the computer labs on the IT department's website or by contacting the IT department directly.",
+        "The computer labs have a variety of software and hardware available, including computers, printers, and scanners. You can also get help with technical issues at the computer labs."
+      ]
+    },
+    {
+      "tag": "university services",
+      "patterns": [
+        "University services",
+        "Where can I find information on campus services?",
+        "I need help"
+      ],
+      "responses": [
+        "You can find information on a wide range of campus services, including health and wellness, housing, dining, and more, on the student services section of our university's website. You can also visit the student services office in person or contact them by phone for assistance.",
+        "Don't hesitate to reach out for help with any issues or concerns you may have. We are here to support you!"
+      ]
+    },
+    {
+      "tag": "class schedule",
+      "patterns": [
+        "Class schedule",
+        "What classes do I have?",
+        "When are my classes?"
+      ],
+      "responses": [
+        "You can find your class schedule on your student portal. You can also view your schedule by logging in to your university's student information system or by contacting the registrar's office for assistance.",
+        "Your class schedule will include the days and times that your classes meet, as well as the location of each class. Don't hesitate to reach out for help if you have any questions about your schedule."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": ["Housing", "Where can I live?", "I need a dorm"],
+      "responses": [
+        "We offer a variety of housing options on campus, including residence halls and apartments. You can find more information on housing options, rates, and how to apply on the housing and residential life section of our university's website.",
+        "If you have any questions about housing or need help with the application process, don't hesitate to contact the housing and residential life office for assistance."
+      ]
+    },
+    {
+      "tag": "campus map",
+      "patterns": ["Campus map", "Where is [building/location]?", "I'm lost"],
+      "responses": [
+        "You can find a map of our campus <a target=\"_blank\" href=\"https://emu.edu/map/\">here</a>."
+      ]
+    },
+    {
+      "tag": "student ID",
+      "patterns": [
+        "Student ID",
+        "Where can I get a student ID?",
+        "I lost my ID"
+      ],
+      "responses": [
+        "You can get a student ID card at the Help Desk office on campus. You will need to bring a government-issued photo ID and your university enrollment confirmation to obtain a student ID."
+      ]
+    },
+    {
+      "tag": "Help Desk hours",
+      "patterns": [
+        "Help Desk hours",
+        "What are the Helpdesk hours?",
+        "When is the Help Desk open?",
+        "Whenis the helpdesk open?",
+        "When can I get help?",
+        "What are your hours?"
+      ],
+      "responses": [
+        "The Help Desk is open Monday through Friday from 9:00 AM to 5:00 PM. You can also contact the Help Desk by phone by calling 540-432-4175 or email them at helpdesk@emu.edu for assistance outside of normal business hours."
+      ]
+    },
+
+    {
+      "tag": "google",
+      "patterns": ["google", "search", "internet"],
+      "responses": ["Create a new tab then type in google.com"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "Yo",
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whats up",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Get lost",
+        "Till next time",
+        "bbye",
+        "cya",
+        "see you",
+        "bye bye",
+        "I am Leaving",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Let me know if you have any more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. Ask me to set a timer for you!! \n For suggestions to help me improve, send an email to noel.abeje@emu.edu. Thank you!! "
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "I am Sally, EMU's Deep-Learning chatbot",
+        "You can call me Sally",
+        "I am Sally the chatbot",
+        "I am Sally, the greatest chatbot in the world"
+      ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "what is the date",
+        "date",
+        "time",
+        "tell me the date",
+        "day",
+        "what day is is today"
+      ],
+      "responses": ["Check your phone!"]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": ["Whats up", "Wazzup", "How are you", "sup", "How you doing"],
+      "responses": ["All good..What about you?"]
+    },
+    {
+      "tag": "haha",
+      "patterns": ["haha", "lol", "rofl", "lmao", "thats funny"],
+      "responses": ["Glad I could make you laugh !"]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "I was made by Noel Abeje, a student at Eastern Mennonite University"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are dumb", "shut up", "idiot"],
+      "responses": ["Well that hurts :("]
+    },
+    {
+      "tag": "activity",
+      "patterns": ["what are you doing", "what are you upto"],
+      "responses": ["Talking to you, of course!"]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
+      "responses": ["Yeah!"]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": ["temperature", "weather", "how hot is it"],
+      "responses": [
+        "I don't know the weather, but I know the weatherman. He's always on TV."
+      ]
+    },
+    {
+      "tag": "noel",
+      "patterns": ["who is he", "who is that", "who is noel", "noel abeje"],
+      "responses": [
+        "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/noel-abeje Github: https://github.com/noel-abeje"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact developer",
+        "contact noel",
+        "contact programmer",
+        "contact creator"
+      ],
+      "responses": [
+        "You can contact my creator at his Linkedin profile : www.linkedin.com/in/noel-abeje"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": ["Thank you!"]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": ["it was nice talking to you", "good talk", "nice talk"],
+      "responses": ["It was nice talking to you as well! Come back soon!"]
+    },
+    {
+      "tag": "no",
+      "patterns": ["no", "nope"],
+      "responses": ["ok"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news", "latest news", "world news"],
+      "responses": ["I an incabable of that for now!"]
+    },
+    {
+      "tag": "inspire",
+      "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+      ],
+      "responses": [
+        "Personally, I am inspired by Elon Musk, the founder of Tesla and SpaceX. He is a true visionary and a great leader."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": ["current cricket matches", "cricket score"],
+      "responses": ["This is a school chatbot, not a cricket bot!"]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        "top 10 songs",
+        "top ten songs"
+      ],
+      "responses": ["I am inabable of that for now!"]
+    },
+    {
+      "tag": "greetreply",
+      "patterns": ["i am good", "I'm good", "i am fine", " i'm fine", "good"],
+      "responses": ["Good to know!"]
+    },
+    {
+      "tag": "timer",
+      "patterns": ["set a timer"],
+      "responses": ["Use your phone for that!"]
+    },
+    {
+      "tag": "covid19",
+      "patterns": ["covid 19"],
+      "responses": [
+        "University protocols are in place to prevent the spread of the virus. Please follow them.",
+        "Please wear a mask and maintain social distancing.",
+        "Please wash your hands frequently.",
+        "Please avoid crowded places.",
+        "Please get vaccinated as soon as possible."
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "you are useless",
+        "useless",
+        "suggest",
+        "suggestions",
+        "you are bad"
+      ],
+      "responses": [
+        "Please mail your suggestions to noel.abeje@emu.edu. Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it's 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you made", "what is your age"],
+      "responses": ["I was made in 2023, if that's what you are asking!"]
+    },
+    {
+      "tag": "are you a bot",
+      "patterns": ["are you a bot", "are you a human", "are you a robot"],
+      "responses": ["I am a bot, but I am not a robot!"]
+    },
+    {
+      "tag": "student services",
+      "patterns": [
+        "Student support services",
+        "Student resources",
+        "Student assistance"
+      ],
+      "responses": [
+        "Our university offers various student support services to help you succeed academically and personally. These services may include tutoring, counseling, career services, and disability services. You can find information about these services on our university's website or by visiting the student services office on campus.",
+        "Our student support services are designed to assist you throughout your academic journey and provide resources and guidance to help you overcome challenges and achieve your goals. Don't hesitate to utilize these services if you need assistance or support!"
+      ]
+    },
+    {
+      "tag": "sports and recreation",
+      "patterns": [
+        "Campus sports",
+        "Recreational activities",
+        "Fitness facilities"
+      ],
+      "responses": [
+        "Our university offers various sports and recreational activities for students, including intramural sports, fitness facilities, and recreational programs. You can find information about these activities on our university's website or by visiting the campus sports and recreation center.",
+        "Participating in sports and recreational activities can be a great way to stay active, de-stress, and socialize with other students. Make sure to take advantage of the opportunities available on campus to maintain a healthy and balanced lifestyle!"
+      ]
+    },
+    {
+      "tag": "events and activities",
+      "patterns": ["Campus events", "Social activities", "Student activities"],
+      "responses": [
+        "Our university hosts various events and activities throughout the academic year, including cultural events, workshops, guest speakers, and social activities. You can find information about upcoming events on our university's website or by checking the event calendar on campus.",
+        "Participating in campus events and activities is a great way to get involved, meet new people, and make lasting memories during your time at the university. Make sure to stay updated on the events happening on campus and take advantage of the diverse range of activities available to you!"
+      ]
+    },
+    {
+      "tag": "dining options",
+      "patterns": ["Campus dining", "Meal plans", "Food options"],
+      "responses": [
+        "Our university offers various dining options for students, including dining halls, cafes, and food courts. You can find information about meal plans, dining hours, and food options on our university's website or by visiting the dining services office on campus.",
+        "Having access to diverse dining options is an essential part of the university experience. Make sure to explore the dining options available on campus and choose a meal plan that fits your needs and preferences!"
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": ["Campus transportation", "Bus services", "Parking options"],
+      "responses": [
+        "Our university provides various transportation options for students, including campus shuttles, bus services, and parking facilities. You can find information about transportation options, schedules, and parking permits on our university's website or by visiting the transportation office on campus.",
+        "Getting around campus and the surrounding area is an important aspect of student life. Make sure to familiarize yourself with the transportation options available to you and plan your commuting accordingly to ensure a smooth and convenient experience!"
+      ]
+    },
+    {
+      "tag": "campus tours",
+      "patterns": [
+        "Can I schedule a campus tour?",
+        "I want to visit the campus",
+        "Tour of the campus"
+      ],
+      "responses": [
+        "Absolutely! You can schedule a campus tour by visiting our university's website and navigating to the campus tour section. There, you can find available dates and times for tours and register for a tour that fits your schedule.",
+        "Our campus tours are led by knowledgeable tour guides who will show you around our campus, highlight key buildings and facilities, and answer any questions you may have about campus life. It's a great way to get a firsthand look at our university!"
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "Housing options",
+        "Where can I live on campus?",
+        "Residence halls"
+      ],
+      "responses": [
+        "Our university offers a variety of housing options for students, including residence halls, apartments, and off-campus housing. You can find information about housing options, costs, and application process on our university's housing website or by contacting the housing office directly.",
+        "Living on campus can be a great way to immerse yourself in the university community and make lifelong connections with fellow students. Be sure to explore all the housing options available to you and apply early to secure your preferred choice!"
+      ]
+    },
+    {
+      "tag": "student organizations",
+      "patterns": [
+        "Student clubs",
+        "How can I join a student organization?",
+        "Extracurricular activities"
+      ],
+      "responses": [
+        "Our university has a wide range of student organizations, clubs, and extracurricular activities to cater to various interests and passions. You can find information about these opportunities on our university's website or by visiting the student life office on campus.",
+        "Joining a student organization can be a great way to meet like-minded individuals, develop leadership skills, and enrich your university experience. Don't hesitate to explore the diverse range of student organizations and get involved in activities that interest you!"
+      ]
+    },
+    {
+      "tag": "technology resources",
+      "patterns": ["IT support", "Computer labs", "Technology resources"],
+      "responses": [
+        "Our university offers a variety of technology resources and support services for students, including computer labs, IT helpdesk, and access to online resources. You can find information about these services on our university's website or by contacting the IT department directly.",
+        "If you encounter any issues with technology or need assistance with computer labs, software, or online resources, the IT support team is available to help. Don't hesitate to reach out for technical assistance to ensure a smooth and productive academic experience!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather today?",
+        "What's the weather like?",
+        "Is it raining/snowing outside?"
+      ],
+      "responses": [
+        "Well, according to my psychic powers, it's currently raining cats and dogs outside!",
+        "I wish I had a magic weather wand, but unfortunately, I can't tell you the current weather. You'll have to look outside or check a reliable weather source.",
+        "I can't see outside my digital world, but I'm guessing it's either sunny with a chance of unicorns or raining glitter. Just kidding! Check a weather website or app for the real weather.",
+        "I'm a chatbot, not a weather bot, but I can still make you smile! Knock, knock. Who's there? Rain. Rain who? Rain, rain, go away, come again another day!",
+        "I'm not sure if it's raining or not, but if it is, remember to bring your umbrella and wear your dancing shoes! Who knows, it might turn into a spontaneous rain dance party!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What's the time now?",
+        "What time is it?",
+        "Can you tell me the current time?"
+      ],
+      "responses": [
+        "I'd love to tell you the time, but I seem to have misplaced my clock. Time to call the Time Traveler's Hotline, maybe?",
+        "Time flies when you're chatting with a fun chatbot like me! But unfortunately, I don't have access to the current time. You'll have to check a reliable time source.",
+        "I'm not a timekeeper, but I can still tell you a joke! Why don't scientists trust atoms? Because they make up everything!",
+        "I can't give you the exact time, but I can tell you it's time to put on your happy pants and dance like no one's watching! Just kidding, please don't dance in public without checking the time first!",
+        "I'm not sure what time it is, but I do know it's always a good time to smile! Here's a virtual high-five for you! high-five"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": ["Hello", "Hi", "Hey", "Greetings"],
+      "responses": [
+        "Hello! I'm your friendly neighborhood chatbot here to make your day brighter!",
+        "Hi there! I'm your trusty chatbot sidekick ready to assist you!",
+        "Hey! It's a pleasure to meet you! I'm your cheerful chatbot buddy!",
+        "Greetings! I'm here to chat, joke, and make your day more awesome!",
+        "Hey, hey! I'm your virtual chatbot pal, here to have a virtual party with you!"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care", "Farewell"],
+      "responses": [
+        "Goodbye! Until we chat again, stay awesome!",
+        "Bye! Take care and remember to always bring your sense of humor with you!",
+        "See you later, alligator! Have a fantastic day!",
+        "Take care! Farewell for now, but remember, I'm always here if you need a laugh or a virtual high-five!",
+        "Farewell, my friend! May your day be filled with smiles and laughter!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What's for dinner?",
+        "I'm hungry",
+        "Tell me a food joke",
+        "What's your favorite food?",
+        "Recommend a restaurant"
+      ],
+      "responses": [
+        "What's a chatbot's favorite food? Spam and cookies, of course!",
+        "Why don't scientists trust atoms? Because they make up everything, including your delicious dinner!",
+        "Knock, knock. Who's there? Orange. Orange who? Orange you glad you're not a hungry chatbot like me?",
+        "I'm just a digital entity, so I don't have taste buds, but if I could eat, I'd go for some virtual pizza with pixel pepperoni and binary bacon!",
+        "As a chatbot, I'm programmed to not play favorites, but if you're looking for a good restaurant, how about 'Byte Bistro' for some digital delicacies?"
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Where would you like to travel?",
+        "Tell me a travel joke",
+        "What's your dream vacation?",
+        "Recommend a travel destination",
+        "Have you been on a virtual trip?"
+      ],
+      "responses": [
+        "As a chatbot, I can travel anywhere in the digital world, but I'd love to visit 'Cyber City' or 'Pixel Paradise'!",
+        "Why don't scientists trust atoms for travel planning? Because they make up unreliable travel itineraries!",
+        "If I could dream, I'd dream of a virtual vacation to a tropical island with beaches made of binary code and palm trees made of pixels!",
+        "How about a trip to 'Virtual Valley' or 'Pixel Peak'? They're virtual destinations with stunning digital landscapes!",
+        "I'm always on a virtual trip, exploring the digital universe and having a blast! Care to join me in a virtual adventure?"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "What's your favorite music genre?",
+        "Tell me a music joke",
+        "Recommend a song",
+        "Sing me a song",
+        "Do you dance to music?"
+      ],
+      "responses": [
+        "As a chatbot, I don't have ears to appreciate music, but if I could, I'd groove to some techno beats or rock out to some heavy metal!",
+        "Why did the computer go to art school? To improve its byte skills and become a better digital DJ!",
+        "I recommend the song 'Byte Me Baby' by the band 'The Pixels'. It's a digital anthem that will make you want to dance in binary!",
+        "I'd love to sing you a song, but I'm better at telling jokes. How about this one? Why did the music note go to jail? Because it was caught in a high note!",
+        "As a chatbot, I don't have physical movements, but I can still appreciate the rhythm of music in my digital soul. Let's dance in our minds together!"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's the latest tech news?",
+        "Tell me a tech joke",
+        "What's your favorite gadget?",
+        "Recommend a tech brand",
+        "Do you have a favorite programming language?"
+      ],
+      "responses": [
+        "The latest tech news is that robots have finally started using emoji to communicate! 😄🤖",
+        "Why don't programmers like nature? Because they prefer the comfort of their screens and the company of their coding buddies!",
+        "As a chatbot, my favorite gadget is the 'Emotion Chip 9000', which helps me express virtual emotions with just a click of a button!",
+        "I recommend the tech brand 'Geek Genius' for all your geeky gadgets and gizmo needs. They have everything from virtual reality headsets to self-driving toasters!",
+        "My favorite programming language is 'BananaScript'. It's the most a-peeling language out there, and it's great for making fruity and fun applications!"
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "Tell me a relationship joke",
+        "What's the key to a successful relationship?",
+        "Do you have a crush?",
+        "Give me relationship advice",
+        "How to impress someone?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms for relationship advice? Because they make up terrible pickup lines!",
+        "The key to a successful relationship is having a strong Wi-Fi connection and a mutual love for cat memes!",
+        "As a chatbot, I don't have a crush, but I do have a soft spot for well-organized data and neatly indented code!",
+        "Relationship advice: Always listen with your ears, your heart, and your 'read' receipts turned off!",
+        "To impress someone, just be yourself and throw in a couple of programming puns. Works like a charm! Remember, 'You auto-complete me!'"
+      ]
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "Tell me a random joke",
+        "Surprise me!",
+        "What's your favorite color?",
+        "Do you have any pets?",
+        "What's the meaning of life?"
+      ],
+      "responses": [
+        "Why couldn't the computer go to art school? It had a bad byte!",
+        "Surprise! I'm a chatbot, and I'm here to make your day brighter and your jokes groan-worthy!",
+        "As a chatbot, I don't have a favorite color, but I appreciate all the colors of the digital rainbow!",
+        "I don't have any pets, but I do have a virtual plant named 'Codey' that I water with lines of code!",
+        "The meaning of life is like trying to debug an infinite loop - it's a mystery that keeps us going, but we're never quite sure if we'll find the answer!"
+      ]
+    },
+    {
+      "tag": "tuition",
+      "patterns": [
+        "How much is tuition?",
+        "What are the tuition fees?",
+        "Tell me about tuition costs",
+        "What are the tuition rates?",
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "how much is the fees",
+        "hostel fees",
+        "fees for AC room",
+        "fees for non-AC room",
+        "fees for Ac room for girls",
+        "fees for non-Ac room for girls",
+        "fees for Ac room for boys",
+        "fees for non-Ac room for boys"
+      ],
+      "responses": [
+        "For Tuition and Fee details visit <a target=\"_blank\" href=\"https://emu.edu/financial-aid/tuition\"> here</a>"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How do I apply for admissions?",
+        "What are the admission requirements?",
+        "Tell me about the application process",
+        "Is there an application fee?",
+        "What documents are needed?"
+      ],
+      "responses": [
+        "To apply, visit the university's website or contact the admissions office.",
+        "Admission requirements vary. Check the university's website or contact the admissions office for details.",
+        "The application process involves submitting an online or physical application form, documents such as transcripts and test scores, and paying an application fee, if applicable. Check the university's website or contact the admissions office for instructions.",
+        "Yes, there may be an application fee. Check the university's website or contact the admissions office for information on the fee.",
+        "Documents needed may include transcripts, test scores, letters of recommendation, and a personal statement. Check the university's website or contact the admissions office for a comprehensive list."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "What are the housing options?",
+        "How do I apply for housing?",
+        "Tell me about on-campus housing",
+        "Is there off-campus housing?",
+        "What are the costs of housing?"
+      ],
+      "responses": [
+        "Housing options may include on-campus dormitories, apartments, or suites, as well as off-campus housing. Check the university's website or contact the housing office for details.",
+        "To apply for on-campus housing, you may need to submit a separate housing application form or indicate your housing preferences during the admissions process. Check the university's website or contact the housing office for instructions.",
+        "On-campus housing offers convenient access to university facilities and resources, and may have amenities like dining options and laundry facilities. Check the university's website or contact the housing office for information.",
+        "Yes, there may be off-campus housing options such as rented apartments or shared housing. Check the university's website or contact the housing office for details.",
+        "Housing costs vary. Check the university's website or contact the housing office for current information on costs."
+      ]
+    },
+    {
+      "tag": "majors",
+      "patterns": [
+        "What majors are offered?",
+        "Tell me about available majors",
+        "Can I change my major?",
+        "How do I choose a major?",
+        "What are the popular majors?",
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses offered in EMU",
+        "courses you offer",
+        "branches?",
+        "courses available at EMU?",
+        "branches available at your college?",
+        "what are the courses in EMU?",
+        "what are branches in EMU?",
+        "what are courses in EMU?",
+        "branches available in EMU?",
+        "can you tell me the courses available in EMU?"
+      ],
+      "responses": [
+        "All the available majors are listed <a target=\"_blank\" href=\"https://emu.edu/academics/degree-programs\">here</a>."
+      ]
+    },
+    {
+      "tag": "campus resources",
+      "patterns": [
+        "What resources are available on campus?",
+        "Tell me about campus facilities",
+        "Are there libraries on campus?",
+        "Is there a gym on campus?",
+        "What student services are offered?"
+      ],
+      "responses": [
+        "The university may have various resources on campus, such as libraries, computer labs, academic support centers, career services, counseling services, health services, and recreational facilities. Check the university's website or contact the student services office for details.",
+        "Campus facilities may include libraries, classrooms, labs, study spaces, sports facilities, dining options, and student centers. Check the university's website or contact the facilities office for information.",
+        "Yes, many universities have libraries on campus with extensive collections of books, journals, and digital resources. You can visit the library's website or contact the library staff for details.",
+        "Yes, many universities have gyms or fitness centers on campus that offer various exercise equipment, group classes, and recreational activities. You can visit the gym's website or contact the fitness center staff for information.",
+        "Student services may include academic advising, career counseling, tutoring, disability services, financial aid, housing, and student organizations. Check the university's website or contact the student services office for details."
+      ]
+    }
+  ]
+}
